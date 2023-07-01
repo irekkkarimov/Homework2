@@ -17,8 +17,11 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         binding = FragmentMainBinding.bind(view)
 
         binding?.run {
-            btnToSettings.setOnClickListener {
-                findNavController().navigate(R.id.action_mainFragment_to_settingsFragment)
+            btnToSeparated.setOnClickListener {
+                val bundle = Bundle()
+                bundle.putString("CLASS_NAME", "MainFragment")
+                findNavController().navigate(R.id.action_mainFragment_to_separatedFragment,
+                bundle)
             }
         }
 
