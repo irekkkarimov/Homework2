@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.itis.homework2.databinding.FragmentProfileBinding
 
-class ProfileFragment : Fragment() {
+class ProfileFragment : Fragment(R.layout.fragment_profile) {
 
     var binding : FragmentProfileBinding? = null
 

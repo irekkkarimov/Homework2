@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.itis.homework2.databinding.FragmentSettingsBinding
 
-class SettingsFragment : Fragment() {
+class SettingsFragment : Fragment(R.layout.fragment_settings) {
 
     var binding : FragmentSettingsBinding? = null
 

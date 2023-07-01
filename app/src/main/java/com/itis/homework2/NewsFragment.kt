@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.itis.homework2.databinding.FragmentMusicBinding
 
-class NewsFragment : Fragment() {
+class NewsFragment : Fragment(R.layout.fragment_news) {
 
     var binding : FragmentMusicBinding? = null
 
